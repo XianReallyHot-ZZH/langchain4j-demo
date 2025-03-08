@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: langchain4j-01simple
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: sk-d800e3b52bcd43aa93ee4d400e1173ae
+      model-name: qwen-max
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1

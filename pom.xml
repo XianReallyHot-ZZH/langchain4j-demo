@@ -6,6 +6,7 @@
     <groupId>com.example</groupId>
     <artifactId>langchain4j-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <spring-boot.version>3.3.4</spring-boot.version>
@@ -16,7 +17,7 @@
     </properties>
 
     <modules>
-<!--        <module>langchain4j-01simple</module>-->
+        <module>langchain4j-01simple</module>
 <!--        <module>langchain4j-02chatapi</module>-->
 <!--        <module>langchain4j-03chatapi-config</module>-->
 <!--        <module>langchain4j-04chatstream</module>-->
