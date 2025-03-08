@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>langchain4j-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <spring-boot.version>3.3.4</spring-boot.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+<!--        <module>langchain4j-01simple</module>-->
+<!--        <module>langchain4j-02chatapi</module>-->
+<!--        <module>langchain4j-03chatapi-config</module>-->
+<!--        <module>langchain4j-04chatstream</module>-->
+<!--        <module>langchain4j-05chatapi-vision</module>-->
+<!--        <module>langchain4j-06chat-memory</module>-->
+<!--        <module>langchain4j-07chat-prompt</module>-->
+<!--        <module>langchain4j-08chat-json1</module>-->
+<!--        <module>langchain4j-09function</module>-->
+<!--        <module>langchain4j-10embedding</module>-->
+<!--        <module>langchain4j-11embedding2</module>-->
+<!--        <module>langchain4j-12graalvm</module>-->
+<!--        <module>langchain4j-13websearch</module>-->
+<!--        <module>langchain4j-14sensitive-word</module>-->
+<!--        <module>langchain4j-15rag1</module>-->
+<!--        <module>langchain4j-16rag2</module>-->
+<!--        <module>langchain4j-17rag3</module>-->
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>dev.langchain4j</groupId>
+                <artifactId>langchain4j-bom</artifactId>
+                <version>1.0.0-beta1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
