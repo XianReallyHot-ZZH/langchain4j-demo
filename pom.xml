@@ -28,6 +28,7 @@
         <module>langchain4j-09function</module>
         <module>langchain4j-10dynamic-function</module>
         <module>langchain4j-11web-search</module>
+        <module>langchain4j-12sensitive-word</module>
 <!--        <module>langchain4j-10embedding</module>-->
 <!--        <module>langchain4j-11embedding2</module>-->
 <!--        <module>langchain4j-12graalvm</module>-->
