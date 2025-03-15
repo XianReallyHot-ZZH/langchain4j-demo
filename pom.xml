@@ -25,7 +25,7 @@
         <module>langchain4j-06chat-memory</module>
         <module>langchain4j-07chat-prompt</module>
         <module>langchain4j-08chat-output</module>
-<!--        <module>langchain4j-09function</module>-->
+        <module>langchain4j-09function</module>
 <!--        <module>langchain4j-10embedding</module>-->
 <!--        <module>langchain4j-11embedding2</module>-->
 <!--        <module>langchain4j-12graalvm</module>-->
