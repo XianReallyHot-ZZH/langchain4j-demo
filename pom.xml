@@ -31,7 +31,7 @@
         <module>langchain4j-12sensitive-word</module>
         <module>langchain4j-13embedding-store</module>
         <module>langchain4j-14embedding-classifier</module>
-<!--        <module>langchain4j-15rag1</module>-->
+        <module>langchain4j-15rag1</module>
 <!--        <module>langchain4j-16rag2</module>-->
 <!--        <module>langchain4j-17rag3</module>-->
     </modules>
